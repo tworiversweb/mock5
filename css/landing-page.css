@@ -369,7 +369,15 @@ p.copyright {
     line-height: 150%;
 }
 
+.post-title {
+    margin-top: 40px;
+}
+
 .post-preview a {
     text-decoration: none;
 }
 
+.post-meta {
+    font-style: italic;
+    margin-bottom: 30px;
+}
