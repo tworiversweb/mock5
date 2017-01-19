@@ -84,7 +84,6 @@ a, a:visited {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
     opacity: 80%;
     background-size: cover;
     border: none;
@@ -104,6 +103,7 @@ a, a:visited {
     position: relative;
     padding-top: 5%;
     padding-bottom: 5%;
+    color: inherit;
 }
 
 .intro-message > h1 {
@@ -369,4 +369,7 @@ p.copyright {
     line-height: 150%;
 }
 
+.post-preview a {
+    text-decoration: none;
+}
 
