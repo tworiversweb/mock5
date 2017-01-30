@@ -150,7 +150,7 @@ a, a:visited {
 
 .content-section-c {
     color: #f8f8f8;
-    background: url(../img/path.jpg) no-repeat center center;
+    background-color:#223F00;
     opacity: 80%;
     background-size:cover;
     padding: 30px 0;
@@ -163,7 +163,7 @@ a, a:visited {
 .content-section-a {
     padding: 50px 0;
     color: black;
-    background-color: rgba(190, 215, 230, 0.3);
+    background-color:#FCFCFC;
 }
 
 .left-col {
