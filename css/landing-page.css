@@ -340,9 +340,10 @@ h3,
 }
 
 .well3 {
-    background-color: rgba(4, 20, 30, 0.95);
+    background-color: #acad94;
     background-size: cover;
     margin: 50px;
+    color: #272d25;
 }
 
 .building {
