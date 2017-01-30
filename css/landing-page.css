@@ -69,6 +69,7 @@ b{
     background: url(../img/path.jpg) no-repeat center center;
     opacity: 80%;
     background-size:cover;
+    text-shadow: 3px 1px 1px rgba(0,0,0,1);
 }
 
 .intro-header a:link, a:visited {
@@ -109,13 +110,7 @@ a, a:visited {
 
 .intro-message  h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 4em;
-}
-
-.intro-message2 h3 {
-    font-family: 'Raleway', sans-serif;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .intro-message2 {
@@ -133,6 +128,7 @@ a, a:visited {
 
 .logo {
     max-width: 100px;
+    padding-top: 30px;
 }
 
 .intro-divider {
