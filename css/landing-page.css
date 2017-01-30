@@ -160,6 +160,11 @@ a, a:visited {
     padding: 30px 0;
 }
 
+.about-lead {
+    text-align: center;
+    padding: 10px;
+}
+
 .well2 {
     background-color: rgba(4, 20, 30, 0.95);
 }
