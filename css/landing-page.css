@@ -175,10 +175,27 @@ a, a:visited {
     background-color:#e2e2e2;
 }
 
-
-
 .left-col {
   text-align: center;
+}
+
+.prac {
+    border-radius: 10px;
+    border-bottom-color: white;
+}
+
+.prac-grid {
+    text-align:justify;
+    padding: 40px;
+    border-radius: 10px;
+    border-right: white;
+}
+
+.grid-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
 }
 
 .content-section-b {
@@ -188,7 +205,7 @@ a, a:visited {
 }
 
 .section-heading {
-margin-top: none;
+    margin-top: none;
 }
 
 .section-heading h1,
