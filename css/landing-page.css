@@ -14,8 +14,8 @@ html {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 5em;
+    font-weight: 700;
+    font-size: 4em;
     letter-spacing: 5px;
 }
 
@@ -31,6 +31,7 @@ h3,
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    letter-spacing: .5px;
 }
 
 b{
@@ -65,7 +66,7 @@ b{
     padding-top: 10px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/reflection2.jpg) no-repeat center center;
+    background: url(../img/path.jpg) no-repeat center center;
     opacity: 80%;
     background-size:cover;
 }
@@ -84,14 +85,13 @@ a, a:visited {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
     opacity: 80%;
     background-size: cover;
     border: none;
 }
 
 .well {
-	background-color: rgba(4, 20, 30, 0.85);
+	background-color: rgba(4, 20, 30, 0.01);
 	border: none;
 }
 
@@ -104,15 +104,16 @@ a, a:visited {
     position: relative;
     padding-top: 5%;
     padding-bottom: 5%;
+    color: inherit;
 }
 
-.intro-message > h1 {
+.intro-message  h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 4em;
 }
 
-.intro-message2 > h3 {
+.intro-message2 h3 {
     font-family: 'Raleway', sans-serif;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
@@ -120,6 +121,7 @@ a, a:visited {
 .intro-message2 {
     font-family: 'Raleway', sans-serif;
     position: relative;
+    margin: 30px;
 }
 
 .ooo{
@@ -130,79 +132,13 @@ a, a:visited {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-
-@media(max-width:767px) {
-    .intro-message {
-/*        padding-bottom: 15%;*/
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-
-    .logo {
-    max-width: 100px;
-    }
-}
-
-@media (max-width: 990px) {
-  .navbar-header {
-      float: none;
-  }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
-  .navbar-toggle {
-      display: block;
-  }
-  .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
-  }
-  .navbar-nav>li {
-      float: none;
-  }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-  .collapse.in{
-      display:block !important;
-  }
 }
 
 .network-name {
@@ -218,7 +154,7 @@ a, a:visited {
 
 .content-section-c {
     color: #f8f8f8;
-    background: url(../img/reflection2.jpg) no-repeat center center;
+    background: url(../img/path.jpg) no-repeat center center;
     opacity: 80%;
     background-size:cover;
     padding: 30px 0;
@@ -324,6 +260,69 @@ h3,
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+
+    .intro-message {
+/*        padding-bottom: 15%;*/
+    }
+
+    .intro-message h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+    .logo {
+    max-width: 100px;
+    }
+}
+
+@media (max-width: 990px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
 }
 
 .content-section-d {
@@ -369,4 +368,15 @@ p.copyright {
     line-height: 150%;
 }
 
+.post-title {
+    margin-top: 40px;
+}
 
+.post-preview a {
+    text-decoration: none;
+}
+
+.post-meta {
+    font-style: italic;
+    margin-bottom: 30px;
+}
