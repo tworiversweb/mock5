@@ -408,8 +408,15 @@ p.copyright {
 
 .entrance {
     max-height: 400px;
+    max-width: 400px;
 }
 
 .elevator {
     max-height: 400px;
+    max-width: 400px;
+}
+
+.westentrance {
+    max-height: 400px;
+    max-width: 400px;
 }
