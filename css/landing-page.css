@@ -405,3 +405,11 @@ p.copyright {
     font-style: italic;
     margin-bottom: 30px;
 }
+
+.entrance {
+    max-height: 400px;
+}
+
+.elevator {
+    max-height: 400px;
+}
